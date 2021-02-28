@@ -1,21 +1,19 @@
 {
-    "name": "ExtRover",
-    "description": "",
+    "name": "estrover",
+    "version": "0.0.3",
+    "description": "Microsoft MakeCode package for 4tronix Rover",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "fireled": "github:4tronix/FireLedsBase#0.1.2"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md"
+        "README.md",
+        "rovermike.ts"
     ],
     "testFiles": [
-        "test.ts"
+        "tests.ts"
     ],
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+    "yotta": {},
+    "public": true
 }
