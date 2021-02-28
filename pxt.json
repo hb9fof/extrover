@@ -4,12 +4,14 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "fireled": "github:4tronix/FireLedsBase#0.1.2"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "rovermike.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -17,5 +19,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
